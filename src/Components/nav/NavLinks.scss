@@ -1,0 +1,19 @@
+.nav-links {
+  text-transform: capitalize;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  li:last-child {
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+  }
+}
+.nav-link {
+  padding: 0.5rem 1rem;
+  a {
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: snow;
+    text-decoration: none;
+  }
+}

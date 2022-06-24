@@ -1,0 +1,21 @@
+.login-form-email,
+.login-form-password {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  label {
+    text-align: left;
+    width: 6rem;
+  }
+  input {
+    width: 100%;
+    margin-left: auto;
+  }
+}
+.invalid input,
+.invalid input {
+  border: 2px solid #ff0000;
+  background-color: #f2c4dd;
+}
